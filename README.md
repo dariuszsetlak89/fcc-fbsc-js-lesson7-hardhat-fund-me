@@ -17,8 +17,6 @@
 -   [Formatting](#formatting)
 -   [Deployed contract](#deployed-contract)
 
-<br>
-
 # Getting Started
 
 ## Requirements
@@ -33,8 +31,6 @@
         -   `yarn --version` and get an output like: `x.x.x`
         -   You might need to [install it with `npm`](https://classic.yarnpkg.com/lang/en/docs/install/) or `corepack`
 
-<br>
-
 ## Quickstart
 
 ```
@@ -42,8 +38,6 @@ git clone git@github.com:dariuszsetlak89/fcc-fbsc-js-lesson7-hardhat-fund-me.git
 cd fcc-fbsc-js-lesson7-hardhat-fund-me
 yarn
 ```
-
-<br>
 
 # Usage
 
@@ -64,8 +58,6 @@ yarn hardhat test
 ```
 yarn hardhat coverage
 ```
-
-<br>
 
 # Deployment to a testnet or mainnet
 
@@ -130,8 +122,6 @@ However, you can manual verify with:
 yarn hardhat verify --constructor-args arguments.js DEPLOYED_CONTRACT_ADDRESS
 ```
 
-<br>
-
 # Linting
 
 To check linting / code formatting:
@@ -146,20 +136,14 @@ or, to fix:
 yarn lint:fix
 ```
 
-<br>
-
 # Formatting
 
 ```
 yarn format
 ```
 
-<br>
-
 # Deployed contract
 
 ## FundMe contract deployed on Goerli Testnet network:
 
 [0x88DC48d1360A1d2325B890d705a68C397D1F31aA](https://goerli.etherscan.io/address/0x88dc48d1360a1d2325b890d705a68c397d1f31aa)
-
-<br>
